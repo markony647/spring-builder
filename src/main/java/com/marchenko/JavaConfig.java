@@ -1,11 +1,14 @@
 package com.marchenko;
 
+import lombok.Getter;
 import org.reflections.Reflections;
 
 import java.util.Map;
 import java.util.Set;
 
 public class JavaConfig implements Config {
+
+    @Getter
     private final Reflections scanner;
     private final Map<Class, Class> ifc2ImplClass;
 
