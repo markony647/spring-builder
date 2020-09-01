@@ -1,5 +1,6 @@
 package com.marchenko;
 
+@Singleton
 public class RecommendatorImpl implements Recommendator {
 
     @InjectProperty
