@@ -1,4 +1,7 @@
-package com.marchenko;
+package com.marchenko.service;
+
+import com.marchenko.configurator.InjectByType;
+import com.marchenko.model.Room;
 
 public class CoronaDesinfector {
 

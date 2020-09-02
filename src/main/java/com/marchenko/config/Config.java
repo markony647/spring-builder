@@ -1,4 +1,4 @@
-package com.marchenko;
+package com.marchenko.config;
 
 import org.reflections.Reflections;
 

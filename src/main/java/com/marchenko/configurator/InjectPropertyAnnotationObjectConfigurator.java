@@ -1,5 +1,6 @@
-package com.marchenko;
+package com.marchenko.configurator;
 
+import com.marchenko.ApplicationContext;
 import lombok.SneakyThrows;
 
 import java.io.BufferedReader;
@@ -23,7 +24,7 @@ public class InjectPropertyAnnotationObjectConfigurator implements ObjectConfigu
 
     @Override
     @SneakyThrows
-    public void configure(Object t) {
+    public void configure(Object t, ApplicationContext context) {
         Class<?> implClass = t.getClass();
         for (Field field : implClass.getDeclaredFields()) {
             InjectProperty annotation = field.getAnnotation(InjectProperty.class);

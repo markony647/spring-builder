@@ -1,4 +1,7 @@
-package com.marchenko;
+package com.marchenko.service;
+
+import com.marchenko.Singleton;
+import com.marchenko.configurator.InjectProperty;
 
 @Singleton
 public class RecommendatorImpl implements Recommendator {

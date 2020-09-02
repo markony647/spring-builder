@@ -1,4 +1,4 @@
-package com.marchenko;
+package com.marchenko.service;
 
 public class PolicemanImpl implements Policeman {
     public void makePeopleLeaveRoom() {

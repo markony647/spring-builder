@@ -1,4 +1,4 @@
-package com.marchenko;
+package com.marchenko.config;
 
 import lombok.Getter;
 import org.reflections.Reflections;
